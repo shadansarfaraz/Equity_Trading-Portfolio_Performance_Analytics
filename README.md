@@ -1,158 +1,125 @@
 # 📊 Equity Trading & Portfolio Performance Analytics
 
-An end-to-end **Tableau dashboard project** built on a real-world **equity trading and portfolio management dataset**.  
-The project provides actionable insights into **market trends, trading activity, portfolio performance, and realized P&L** using a well-structured relational data model.
+A Tableau-based analytics project designed to deliver **market insights, trading efficiency metrics, and portfolio performance evaluation** using real-world equity trading data.
 
 ---
 
-## 🧠 Project Overview
+## ⭐ STAR Project Summary
 
-This project simulates a **capital markets analytics use case** where stakeholders require:
-- Market trend analysis
-- Trading efficiency monitoring
-- Portfolio performance evaluation
-- Executive-level performance summaries
+---
 
-The solution is built using **Tableau relationships** to handle **multiple fact tables** while preserving data grain and accuracy.
+### 🟢 S — Situation
+
+Financial stakeholders required a **comprehensive analytics solution** to monitor:
+- Stock market trends across sectors and exchanges
+- Trading activity and order execution efficiency
+- Portfolio-level profitability and risk
+- Executive-level performance insights
+
+The data was provided in a **single Excel workbook with multiple sheets**, containing **multiple fact tables at different grains**, making accurate modeling and visualization critical.
+
+---
+
+### 🟡 T — Task
+
+As the **Data Analyst**, my responsibility was to:
+- Design a **scalable Tableau data model** handling multiple fact tables
+- Build **interactive dashboards** for different stakeholder levels
+- Ensure **accurate aggregations** and financial KPIs
+- Present insights in a **clear, executive-friendly format**
+
+---
+
+### 🔵 A — Action
+
+I performed the following key actions:
+
+#### 📐 Data Modeling
+- Implemented **Tableau Relationships** instead of physical joins
+- Designed a **hub-and-spoke model** with `dim_company` as the central dimension
+- Linked calendar data at the **fact table level** to preserve data grain
+- Maintained independent fact tables for trades, orders, prices, and P&L
+
+#### 📊 Dashboard Development
+- Built **four interactive dashboards**:
+  1. Market Analysis
+  2. Trading Activity
+  3. Portfolio Performance & P&L
+  4. Executive Summary
+- Designed KPI tiles for financial metrics such as:
+  - Market Capitalization
+  - Realized Profit
+  - Return %
+  - Order Fill Rate
+- Applied financial visualization best practices:
+  - Consistent color coding (green = profit, red = loss)
+  - Clean layouts and minimal clutter
+  - Dynamic filters and tooltips
+
+#### 🎨 Formatting & Usability
+- Used professional dashboard sizing and spacing
+- Optimized number formatting (M/B, currency, percentages)
+- Added interactive filters by date, portfolio, trader, sector, and exchange
+
+---
+
+### 🟣 R — Result
+
+- Delivered a **production-ready Tableau dashboard suite**
+- Enabled stakeholders to:
+  - Identify top-performing portfolios and sectors
+  - Monitor trading efficiency and execution quality
+  - Analyze profitability and cost impact
+- Created a **reusable and scalable data model** suitable for future datasets
+- Improved dashboard clarity and decision-making readiness
 
 ---
 
 ## 🛠 Tools & Technologies
 
 - **Tableau Desktop / Tableau Public**
-- **Microsoft Excel** (Data Source)
-- **GitHub** (Version Control & Documentation)
+- **Microsoft Excel**
+- **GitHub**
 
 ---
 
-## 📂 Dataset Description
+## 📂 Dataset Overview
 
-The dataset is provided as a **single Excel workbook** containing multiple sheets.
+### Dimension Tables
+- dim_company
+- dim_sector
+- dim_exchange
+- dim_trader
+- dim_portfolio
+- dim_calendar
 
-### 🔹 Dimension Tables
-| Table Name | Description |
-|-----------|------------|
-| `dim_company` | Company master data |
-| `dim_sector` | Sector classification |
-| `dim_exchange` | Stock exchange details |
-| `dim_trader` | Trader information |
-| `dim_portfolio` | Portfolio & manager details |
-| `dim_calendar` | Date & time intelligence |
-
-### 🔹 Fact Tables
-| Table Name | Description |
-|-----------|------------|
-| `fact_daily_prices` | Daily OHLC price & volume data |
-| `fact_orders` | Orders placed |
-| `fact_trades` | Executed trades |
-| `fact_positions_snapshot` | Portfolio holdings by date |
-| `fact_trades_pnl_kpi` | Realized P&L and return metrics |
-| `fact_dividends` | Dividend events |
-| `fact_splits` | Stock split events |
+### Fact Tables
+- fact_daily_prices
+- fact_orders
+- fact_trades
+- fact_positions_snapshot
+- fact_trades_pnl_kpi
+- fact_dividends
+- fact_splits
 
 ---
 
-## 🧩 Data Model Design
+## 🚀 Key Skills Demonstrated
 
-- Implemented using **Tableau Relationships** (no physical joins)
-- **Hub-and-spoke architecture** with `dim_company` as the central dimension
-- Calendar linked at the **fact table level**
-- Multiple fact tables kept independent to avoid duplication
-
-**Why Relationships?**
-- Accurate aggregations
-- Correct handling of different grains
-- Scalable and enterprise-grade modeling
-
----
-
-## 📊 Dashboards Overview
-
-### 1️⃣ Market Analysis Dashboard
-**Purpose:** Analyze stock price trends, trading volumes, and sector/exchange performance.
-
-**Key KPIs**
-- Total Market Capitalization
-- Average Stock Price
-- Total Trading Volume
-- % Volume Suspect
-
-**Visuals**
-- Price trend over time
-- Volume by sector
-- Exchange vs sector heatmap
-
----
-
-### 2️⃣ Trading Activity Dashboard
-**Purpose:** Monitor order execution efficiency and trader performance.
-
-**Key KPIs**
-- Total Orders
-- Total Trades
-- Order Fill Rate
-- Buy vs Sell Quantity
-
-**Visuals**
-- Buy vs Sell trends
-- Orders vs Trades over time
-- Trades by trader
-
----
-
-### 3️⃣ Portfolio Performance & P&L Dashboard
-**Purpose:** Evaluate portfolio profitability and investment performance.
-
-**Key KPIs**
-- Realized Profit
-- Return %
-- Win Rate
-- Total Fees
-
-**Visuals**
-- P&L by portfolio
-- Top winning stocks
-- Return % distribution
-
----
-
-### 4️⃣ Executive Summary Dashboard
-**Purpose:** Provide leadership with a high-level performance snapshot.
-
-**Highlights**
-- Total Market Value
-- Total Realized P&L
-- Best & worst performing portfolios/sectors
-- Key performance trends
-
----
-
-## 📐 Dashboard Design & Formatting
-
-- Clean, executive-friendly layout
-- KPI tiles with consistent formatting
-- Financial color coding (green = profit, red = loss)
-- Interactive filters and tooltips
-- Optimized for desktop viewing
-
----
-
-## 🚀 Key Learnings
-
-- Designing multi-fact Tableau data models
-- Implementing enterprise-level financial dashboards
-- Applying data visualization best practices
-- Translating complex data into actionable insights
+- Tableau Data Modeling (Relationships)
+- Financial & Trading Analytics
+- Dashboard Design & Storytelling
+- KPI Definition & Visualization
+- Business Insight Communication
 
 ---
 
 ## 📌 How to Use
 
-1. Open Tableau Desktop
-2. Connect to the provided Excel workbook
-3. Build relationships as per the data model
-4. Open the dashboard worksheets
-5. Explore insights using interactive filters
+1. Connect Tableau to the Excel workbook
+2. Build relationships as per the data model
+3. Open the dashboard worksheets
+4. Explore insights using interactive filters
 
 ---
 
@@ -166,5 +133,4 @@ Data Analyst | Tableau | SQL | Power BI
 
 ---
 
-## ⭐ If you like this project
-Feel free to ⭐ the repository and share feedback!
+⭐ If you find this project insightful, feel free to star the repository!
