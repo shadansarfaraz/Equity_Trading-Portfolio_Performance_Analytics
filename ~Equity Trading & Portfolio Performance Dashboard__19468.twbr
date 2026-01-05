@@ -18,7 +18,7 @@
     <_.fcp.VConnDownstreamExtractsWithWarnings.true...VConnDownstreamExtractsWithWarnings />
     <WindowsPersistSimpleIdentifiers />
   </document-format-change-manifest>
-  <repository-location id='Stocks_17676172512650' path='/workbooks' revision='1.2' />
+  <repository-location id='EquityTradingPortfolioPerformanceDashboard' path='/workbooks' revision='1.0' />
   <preferences>
     <preference name='ui.encoding.shelf.height' value='24' />
     <preference name='ui.shelf.height' value='26' />
@@ -9415,8 +9415,8 @@
         <devicelayout auto-generated='true' name='Phone'>
           <size maxheight='1650' minheight='1650' sizing-mode='vscroll' />
           <zones>
-            <zone h='100000' id='26' type-v2='layout-basic' w='100000' x='0' y='0'>
-              <zone h='98142' id='25' param='vert' type-v2='layout-flow' w='99152' x='424' y='929'>
+            <zone h='100000' id='28' type-v2='layout-basic' w='100000' x='0' y='0'>
+              <zone h='98142' id='27' param='vert' type-v2='layout-flow' w='99152' x='424' y='929'>
                 <zone h='6504' id='3' type-v2='text' w='99152' x='424' y='929'>
                   <formatted-text>
                     <run bold='true' fontcolor='#f28e2b' fontname='Cambria Math' fontsize='15'>Market Analysis Dashboard</run>
@@ -9602,8 +9602,8 @@
         <devicelayout auto-generated='true' name='Phone'>
           <size maxheight='1300' minheight='1300' sizing-mode='vscroll' />
           <zones>
-            <zone h='100000' id='23' type-v2='layout-basic' w='100000' x='0' y='0'>
-              <zone h='98142' id='22' param='vert' type-v2='layout-flow' w='99152' x='424' y='929'>
+            <zone h='100000' id='25' type-v2='layout-basic' w='100000' x='0' y='0'>
+              <zone h='98142' id='24' param='vert' type-v2='layout-flow' w='99152' x='424' y='929'>
                 <zone h='6504' id='3' type-v2='text' w='99152' x='424' y='929'>
                   <formatted-text>
                     <run bold='true' fontcolor='#f28e2b' fontname='Cambria Math' fontsize='16'>Trading Activity Dashboard</run>
@@ -9784,8 +9784,8 @@
         <devicelayout auto-generated='true' name='Phone'>
           <size maxheight='1350' minheight='1350' sizing-mode='vscroll' />
           <zones>
-            <zone h='100000' id='28' type-v2='layout-basic' w='100000' x='0' y='0'>
-              <zone h='98142' id='27' param='vert' type-v2='layout-flow' w='99152' x='424' y='929'>
+            <zone h='100000' id='30' type-v2='layout-basic' w='100000' x='0' y='0'>
+              <zone h='98142' id='29' param='vert' type-v2='layout-flow' w='99152' x='424' y='929'>
                 <zone h='5923' id='3' type-v2='text' w='99152' x='424' y='929'>
                   <formatted-text>
                     <run bold='true' fontcolor='#f28e2b' fontname='Cambria Math' fontsize='16'>Portfolio Performance &amp; P&amp;L Dashboard</run>
@@ -10492,7 +10492,7 @@
       <active id='-1' />
       <simple-id uuid='{B852CC84-F292-4EC9-9E0A-4409E0FA073F}' />
     </window>
-    <window class='dashboard' name='Dashboard 2'>
+    <window class='dashboard' maximized='true' name='Dashboard 2'>
       <viewpoints>
         <viewpoint name='Buy vs Sell Volume'>
           <zoom type='entire-view' />
@@ -10519,7 +10519,7 @@
       <active id='-1' />
       <simple-id uuid='{1177DCBF-9FE0-48E5-A74E-6D30F7422834}' />
     </window>
-    <window class='dashboard' maximized='true' name='Dashboard 3'>
+    <window class='dashboard' name='Dashboard 3'>
       <viewpoints>
         <viewpoint name='Portfolio Contribution to P&amp;L'>
           <zoom type='entire-view' />

@@ -60,19 +60,19 @@ Analyzes stock price trends, volume behavior, sector and exchange performance.
 ![Market Analysis Dashboard Preview](MarketAnalysisDashboardPreview.png)
 
 ### 2️⃣ Trading Activity Dashboard
-Tracks order execution, trade volume, trader performance, and buy vs sell patterns.
+Tracks order execution, trader performance and buy vs sell patterns.
 
 ![Trading Activity Dashboard Preview](TradingActivityDashboardPreview.png)
 
 ### 3️⃣ Portfolio Performance & P&L Dashboard
-Evaluates portfolio profitability, realized returns, fees, and winning trades.
+Evaluates portfolio profitability, realized returns and winning trades.
 
 ![Portfolio Performance Dashboard Preview](PortfolioPerformanceDashboardPreview.png)
 
 ---
 
 ## 🔗 Live Preview
-([Tableau Public](https://public.tableau.com/app/profile/shadansarfaraz/viz/EquityTradingPortfolioPerformanceDashboard/Dashboard3?publish=yes))
+([Live Dashboard](https://public.tableau.com/app/profile/shadansarfaraz/viz/EquityTradingPortfolioPerformanceDashboard/Dashboard3?publish=yes))
 
 ---
 
